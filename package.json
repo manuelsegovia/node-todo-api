@@ -4,10 +4,7 @@
   "description": "Todo API from the book Advanced Node by A Meade",
   "main": "index.js",
   "scripts": {
-    "dev": "node server/server.js",
-    "build": "next build",
-    "postinstall": "npm run build",
-    "start": "NODE_ENV=production node server/server.js",
+    "start": "node server/server.js",
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec 'npm test' "
   },
